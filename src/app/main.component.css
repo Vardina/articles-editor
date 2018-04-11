@@ -1,0 +1,38 @@
+aside {
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+    width: 22%;
+    max-width: 300px;
+}
+.list-item {
+    cursor: pointer;
+    border-bottom: 3px solid #ffffff;
+    padding: 20px 30px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #dedede;
+}
+
+.list-item label {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+    padding-left: 0;
+}
+
+.content {
+    width: 48%;
+    float: left;
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-bottom: 30px; 
+    margin-right: 20px;   
+}

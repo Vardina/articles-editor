@@ -1,0 +1,18 @@
+<div class="styling">
+    <button (click)="increaseFont()">Increase font </button>
+    <button (click)="decreaseFont()">Decrease font </button>
+
+    <label>Text Color:</label>
+    <select>
+        <option *ngFor="let color of colors" value="{{color.title}}" (click)="changeTextColor(color)">
+            {{color.title}}
+        </option>
+    </select>
+
+    <label>Background Color:</label>
+    <select>
+        <option *ngFor="let color of colors" value="{{color.title}}" (click)="changeBackgroundColor(color)">
+            {{color.title}}
+        </option>
+    </select>
+</div>

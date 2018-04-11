@@ -1,0 +1,19 @@
+.styling {
+    padding: 10px; 
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background: #eeeeee;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 4px 2px;
+}
+
+select {
+    margin-right: 15px;
+    padding: 10px 5px;
+    font-size: 14px;
+}

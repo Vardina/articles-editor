@@ -1,0 +1,23 @@
+<aside>
+  <ul>
+    <li *ngFor="let article of articles">
+        <label class="list-item"  
+          (click)="labelClick(article)"
+        >{{article.title}}</label>
+    </li>
+  </ul>
+</aside>
+
+<div id="content" class="content">
+  <h3>{{currentArticle.title}}</h3>
+  <p><i>{{currentArticle.author}}</i></p>
+  <img id="img" src={{currentArticle.imagePath}} style="display: block">
+  <p>{{currentArticle.articleBody.substring(0, currentArticle.marker)}}</p>
+
+  <br />
+  <button id="read-more" style="display: none" (click)="readMore()">Read More</button>
+</div>
+
+<aside>
+  <button id="toggle-img" (click)="toggleImage()">Toggle image</button>
+</aside>

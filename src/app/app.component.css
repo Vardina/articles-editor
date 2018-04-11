@@ -1,0 +1,10 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5d5d5d;
+}
+
+.app-title {
+    color: #678183;
+    padding-left: 40px;
+    font-size: 50px;
+}
